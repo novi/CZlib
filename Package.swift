@@ -18,7 +18,7 @@ import PackageDescription
 
 let package = Package(
     name: "CZlib",
-    pkgConfig: "libz",
+    pkgConfig: "zlib",
     providers: [
         .Apt("libz-dev")
     ]
